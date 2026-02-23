@@ -1,7 +1,7 @@
-import About from "../components/About";
-import Services from "../components/Services";
-import Projects from "../components/Projects";
-import Contact from "../components/Contact";
+import About from "./About";
+import Services from "./Services";
+import Projects from "./Projects";
+import Contact from "./Contact";
 
 function Home() {
   return (
