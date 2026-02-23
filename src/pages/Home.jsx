@@ -1,4 +1,5 @@
-import About from "../components/About"
+import About from "../components/About";
+import Services from "../components/Services";
 
 function Home() {
   return (
@@ -22,8 +23,11 @@ function Home() {
 
       {/* About Section */}
       <About />
+
+      {/* Services Section */}
+      <Services />
     </>
-  )
+  );
 }
 
-export default Home
+export default Home;
